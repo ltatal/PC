@@ -1,3 +1,8 @@
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 .nav {
     background-image: url(image/topback.jpg);
     width: 100%;
@@ -54,7 +59,9 @@
 }
 
 .picslide img {
+    margin-top: -5px;
     background-size: cover;
+    text-align: center;
 }
 
 #myCarousel {
@@ -120,7 +127,7 @@
 }
 
 #left iframe {
-    padding-top: 20px;
+    margin-top: 23px;
 }
 
 #center {
@@ -131,7 +138,7 @@
 
 #right {
     padding-left: 0px;
-    padding-top: 29px;
+    padding-top: 38px;
     width: 370px;
     height: 200px;
     float: left;
