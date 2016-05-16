@@ -4,12 +4,14 @@ img {
 }
 
 .nav {
-    background-image: url(image/topback.jpg);
+    margin-top: 10px;
+    background-image: url(image/topback.png);
+    position: absolute;
     width: 100%;
     background-size: cover;
-    height: 85px;
+    height: 109px;
     font-family: 'Shift';
-    box-shadow: 4px 4px 12px -2px #BDBDBD(20%, 20%, 40%, 0.5);
+    z-index: 2;
 }
 
 .nav a {
@@ -41,7 +43,7 @@ img {
     padding: 0 0px;
     color: #373737;
     text-decoration: none;
-    line-height: 90px;
+    line-height: 100px;
 }
 
 .nav li {
@@ -58,8 +60,14 @@ img {
     color: #0D0D0D;
 }
 
+.picslide {
+    position: relative;
+    margin-top: -20px;
+    z-index: 1;
+}
+
 .picslide img {
-    margin-top: -5px;
+    margin-top: 85px;
     background-size: cover;
     text-align: center;
 }
@@ -91,6 +99,7 @@ img {
 }
 
 .center {
+    position: relative;
     padding-left: 5%;
     font-family: 微軟正黑體;
     padding-top: 30px;
@@ -138,7 +147,7 @@ img {
 
 #right {
     padding-left: 0px;
-    padding-top: 32px;
+    padding-top: 35px;
     width: 370px;
     height: 200px;
     float: left;
